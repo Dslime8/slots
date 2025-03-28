@@ -31,6 +31,7 @@ def main():
     print("*****************************")
     print(" Welcome to the slot machine")
     print(" Symbols: 🍒 🍉 🍋 🔔 ⭐")
+    print("Made by @Dslime8 on GitHub")
     print("*****************************")
 
     while balance > 0:
