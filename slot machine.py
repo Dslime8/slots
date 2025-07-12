@@ -79,10 +79,14 @@ def main():
         else:
             pro_tip = "You can only lose 100%, but you can win up to 5000%"
 
-        play_again = input("Tip: " + pro_tip + "\nDo you want to spin again? Y/N: ").upper()
+        play_again = input("Tip: " + pro_tip + "\nDo you want to spin again? Y/n: ").upper()
 
         if play_again == "N":
             break
+        elif play_again == "Y":
+            print("Next spin!")
+        else:
+            print("Bro its yes or no how do you get that wrong")
         
     print(" ")
     print("***************************************")
