@@ -83,10 +83,6 @@ def main():
 
         if play_again == "N":
             break
-        elif play_again == "Y":
-            print("Next spin!")
-        else:
-            print("Bro its yes or no how do you get that wrong")
         
     print(" ")
     print("***************************************")
